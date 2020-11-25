@@ -1,4 +1,4 @@
-# etl_project
+# ETL Project
 
 # Extraction: 
 We used two different sources to extract our data. The first source where we retrieved data from wa the US census american community survey using five year estiments. The data that our group retrieved from that website was intially formated as JSONs. Our group's other data source was the Chicago Data Portal, where the information was formated as csv files.
