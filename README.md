@@ -47,5 +47,8 @@ For the business licenses dataset extracted from City of Chicago data portal the
 # Load: 
 It was decided that the data would be put into SQL. The reason why SQL was chosen was becaue the data sets would be merged on a single coloumn, joining on zipcode. As such, SQL seemed like the best choice for doing huge joins between datasets.
 
-# Outliers and next steps: 
-On the census side of the data, o'hare airport has no data. for buisness liscenses, some were recorded to have registered not in the city of chicago or even the united states. Next steps would be looking for correlation between educational attainment and where licenses are registered. 
+# Outliers: 
+On the census side of the data, O'hare airport has no data. For business licenses on record in the state of Illinois, many of licenses are outsourced to different countries/states so we needed to exclude this from our final dataset. 
+
+# Next Steps:
+Next steps would be looking for correlation between educational attainment and business licenses in the state of Illinois, i.e. do different types of businesses open in areas that are populated with people of higher educational attainment? 
